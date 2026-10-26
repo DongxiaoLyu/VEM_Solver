@@ -1,0 +1,29 @@
+# Boundary conditions for 2-D linear elasticity, u = (u_x, u_y)
+# 140 nodes; DOF convention (matches global_K.py):
+#   u_x of node id  ->  global index (id - 1)
+#   u_y of node id  ->  global index (id - 1) + 140
+# mesh: voronoi_mesh.txt
+
+Dirichlet BCs #Node id #Component (1=ux, 2=uy) #Value
+129   1   0
+129   2   0
+130   1   0
+130   2   0
+132   1   0
+132   2   0
+133   1   0
+133   2   0
+134   1   0
+134   2   0
+136   1   0
+136   2   0
+139   1   0
+139   2   0
+
+Neumann BCs #Node id1 #Node id2 #t_x #t_y
+96   97   0   -10
+96   107   0   -10
+106   107   0   -10
+106   118   0   -10
+117   118   0   -10
+117   125   0   -10

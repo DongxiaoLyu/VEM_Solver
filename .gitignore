@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Temporary runtime data ----
+# Note: the *.png files in this repository are committed results, so they are
+# deliberately not ignored here.
+*.npy
+*.npz
+*.log

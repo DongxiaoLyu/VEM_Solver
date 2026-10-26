@@ -1,0 +1,16 @@
+Dirichlet BCs #Node id #Dirichlet Value
+129   10.0
+130   10.0
+132   10.0
+133   10.0
+134   10.0
+136   10.0
+139   10.0
+
+Neumann BCs #Node id1 #Node id2 #Neumann Value
+96   97   10.0
+96   107   10.0
+106   107   10.0
+106   118   10.0
+117   118   10.0
+117   125   10.0
